@@ -52,3 +52,8 @@ the system itself
 
 
 I will keep writing here, in one form or another.
+
+
+## (2016-07-02) Starting small
+No use to research too much about a lot before actually doing something. So I will start with writing a small program to
+scrape a page. It will give me a chance to start trying out the Actor model, f# and a scraping library.
