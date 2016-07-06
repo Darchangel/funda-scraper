@@ -57,3 +57,14 @@ I will keep writing here, in one form or another.
 ## (2016-07-02) Starting small
 No use to research too much about a lot before actually doing something. So I will start with writing a small program to
 scrape a page. It will give me a chance to start trying out the Actor model, f# and a scraping library.
+
+## (2016-07-06) Too many new things result in nothing
+Looking at akka.net and f# at the same time is daunting. I'm giving up on actors for now and focusing just on doing this using F#. The distribution can be taken over by having multiple services sending messages to each other.
+
+F# is annoying for some reasons. Organizing the code is awkward. [<EntryPoint>] must be in the last compiled file. Multi-file projects must have a namespace
+
+F# Html type provider works in a weird way, loading a site basically statically at compile time?
+Using the Html parser now, much more dynamic.
+
+After some trial and error, finally got a list of listing URLs.
+Next step is to crawl them and scrape the important information
